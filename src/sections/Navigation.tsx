@@ -47,11 +47,12 @@ export default function Navigation() {
   return (
     <nav
       ref={navRef}
-      className="fixed top-0 left-0 w-full z-50 transition-all duration-[400ms]"
+      className="fixed top-0 left-0 w-full z-50 transition-all"
       style={{
         background: scrolled ? 'rgba(10, 10, 10, 0.95)' : 'transparent',
         backdropFilter: scrolled ? 'blur(12px)' : 'none',
         boxShadow: scrolled ? '0 1px 0 rgba(255, 255, 255, 0.06)' : 'none',
+        transitionDuration: '400ms',
       }}
     >
       <div className="max-w-[1400px] mx-auto flex items-center justify-between h-16 px-6 lg:px-10">
