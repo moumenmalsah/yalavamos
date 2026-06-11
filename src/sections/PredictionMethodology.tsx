@@ -261,10 +261,11 @@ export default function PredictionMethodology() {
               maxWidth: 520,
             }}
           >
-            Machine learning models trained on 20 years of international football data. We factor in
-            everything — head-to-head history, home advantage, travel fatigue, tactical styles, even
-            the weather. Every prediction comes with a confidence score so you know exactly where we
-            stand.
+            Machine learning models trained on 20 years of international football data — now
+            laser-focused on <strong>World Cup 2026</strong> across 16 host cities in the USA, Canada, and
+            Mexico. We factor in everything — head-to-head history, home advantage, travel fatigue,
+            tactical styles, even the weather. Every prediction comes with a confidence score so you
+            know exactly where we stand.
           </p>
 
           {/* Stats */}

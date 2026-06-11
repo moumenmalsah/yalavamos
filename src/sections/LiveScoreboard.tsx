@@ -24,75 +24,111 @@ function generateWorldCupData(): Record<string, Group> {
   return {
     A: {
       teams: [
-        { name: 'Qatar', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#8B1A1A' },
-        { name: 'Ecuador', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFD700' },
-        { name: 'Senegal', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#228B22' },
-        { name: 'Netherlands', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FF4500' },
+        { name: 'USA', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#BF0A30' },
+        { name: 'Canada', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FF0000' },
+        { name: 'Cameroon', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#007A5E' },
+        { name: 'Saudi Arabia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006C35' },
       ],
-      nextMatch: 'June 15, 2026 — Qatar vs Ecuador',
+      nextMatch: 'June 12, 2026 — USA vs Canada',
     },
     B: {
       teams: [
-        { name: 'England', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFFFFF' },
-        { name: 'Iran', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#228B22' },
-        { name: 'USA', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#BF0A30' },
-        { name: 'Wales', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C8102E' },
+        { name: 'Mexico', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006847' },
+        { name: 'Argentina', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#6CACE4' },
+        { name: 'Nigeria', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#008751' },
+        { name: 'South Korea', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#CD2E3A' },
       ],
-      nextMatch: 'June 16, 2026 — England vs Iran',
+      nextMatch: 'June 13, 2026 — Mexico vs Argentina',
     },
     C: {
       teams: [
-        { name: 'Argentina', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#6CACE4' },
-        { name: 'Saudi Arabia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006C35' },
-        { name: 'Mexico', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006847' },
-        { name: 'Poland', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#DC143C' },
+        { name: 'Brazil', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#009B3A' },
+        { name: 'Portugal', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006600' },
+        { name: 'Morocco', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C1272D' },
+        { name: 'Australia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFD700' },
       ],
-      nextMatch: 'June 17, 2026 — Argentina vs Saudi Arabia',
+      nextMatch: 'June 14, 2026 — Brazil vs Portugal',
     },
     D: {
       teams: [
         { name: 'France', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0055A4' },
-        { name: 'Australia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFD700' },
-        { name: 'Denmark', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C60C30' },
-        { name: 'Tunisia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#E70013' },
+        { name: 'Spain', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#AA151B' },
+        { name: 'Senegal', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#228B22' },
+        { name: 'Iran', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#228B22' },
       ],
-      nextMatch: 'June 18, 2026 — France vs Australia',
+      nextMatch: 'June 15, 2026 — France vs Spain',
     },
     E: {
       teams: [
-        { name: 'Spain', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#AA151B' },
-        { name: 'Costa Rica', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#002B7F' },
-        { name: 'Germany', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#000000' },
+        { name: 'England', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFFFFF' },
+        { name: 'Netherlands', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FF4500' },
         { name: 'Japan', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#BC002D' },
+        { name: 'Tunisia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#E70013' },
       ],
-      nextMatch: 'June 19, 2026 — Spain vs Costa Rica',
+      nextMatch: 'June 16, 2026 — England vs Netherlands',
     },
     F: {
       teams: [
+        { name: 'Germany', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#000000' },
         { name: 'Belgium', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#000000' },
-        { name: 'Canada', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FF0000' },
-        { name: 'Morocco', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C1272D' },
-        { name: 'Croatia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#171796' },
+        { name: 'Uruguay', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0038A8' },
+        { name: 'Ecuador', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FFD700' },
       ],
-      nextMatch: 'June 20, 2026 — Belgium vs Canada',
+      nextMatch: 'June 17, 2026 — Germany vs Belgium',
     },
     G: {
       teams: [
-        { name: 'Brazil', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#009B3A' },
-        { name: 'Serbia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C6363C' },
-        { name: 'Switzerland', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#DA291C' },
-        { name: 'Cameroon', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#007A5E' },
+        { name: 'Italy', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0066CC' },
+        { name: 'Croatia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#171796' },
+        { name: 'Ghana', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FCD116' },
+        { name: 'Costa Rica', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#002B7F' },
       ],
-      nextMatch: 'June 21, 2026 — Brazil vs Serbia',
+      nextMatch: 'June 18, 2026 — Italy vs Croatia',
     },
     H: {
       teams: [
-        { name: 'Portugal', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006600' },
-        { name: 'Ghana', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FCD116' },
-        { name: 'Uruguay', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0038A8' },
-        { name: 'South Korea', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#CD2E3A' },
+        { name: 'Switzerland', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#DA291C' },
+        { name: 'Denmark', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C60C30' },
+        { name: 'Serbia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C6363C' },
+        { name: 'Qatar', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#8B1A1A' },
       ],
-      nextMatch: 'June 22, 2026 — Portugal vs Ghana',
+      nextMatch: 'June 19, 2026 — Switzerland vs Denmark',
+    },
+    I: {
+      teams: [
+        { name: 'Poland', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#DC143C' },
+        { name: 'Wales', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C8102E' },
+        { name: 'Algeria', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#006633' },
+        { name: 'Panama', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#00529E' },
+      ],
+      nextMatch: 'June 20, 2026 — Poland vs Wales',
+    },
+    J: {
+      teams: [
+        { name: 'Colombia', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#FCD116' },
+        { name: 'Egypt', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#C8102E' },
+        { name: 'Sweden', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#005BAA' },
+        { name: 'United Arab Emirates', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#00732F' },
+      ],
+      nextMatch: 'June 21, 2026 — Colombia vs Egypt',
+    },
+    K: {
+      teams: [
+        { name: 'Uzbekistan', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0099B5' },
+        { name: 'Peru', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#D91023' },
+        { name: 'Ivory Coast', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#F77F00' },
+        { name: 'Chile', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#0039A6' },
+      ],
+      nextMatch: 'June 22, 2026 — Uzbekistan vs Peru',
+    },
+    L: {
+      teams: [
+        { name: 'South Africa', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#007A4D' },
+        { name: 'Paraguay', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#003F87' },
+        { name: 'Scotland', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#005EB8' },
+        { name: 'Mali', played: 0, wins: 0, draws: 0, losses: 0, gd: 0, points: 0, flagColor: '#14B53A' },
+      ],
+      nextMatch: 'June 23, 2026 — South Africa vs Paraguay',
     },
   };
 }
@@ -235,7 +271,7 @@ export default function LiveScoreboard() {
               color: '#ffffff',
             }}
           >
-            WORLD CUP 2026
+            WORLD CUP 2026 — USA
           </h2>
           <p
             className="mt-2"
@@ -246,7 +282,7 @@ export default function LiveScoreboard() {
               color: 'rgba(255, 255, 255, 0.6)',
             }}
           >
-            All groups. All matches. Real-time updates.
+            48 teams. 12 groups. 16 host cities. The action starts June 11, 2026.
           </p>
         </div>
 

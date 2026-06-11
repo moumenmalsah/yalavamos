@@ -15,20 +15,20 @@ interface MatchCard {
 }
 
 const matchCards: MatchCard[] = [
-  { home: 'BRA', homeFlag: '#009B3A', away: 'ARG', awayFlag: '#6CACE4', date: 'June 15, 2026', confidence: 78, odds: '1.85' },
-  { home: 'FRA', homeFlag: '#0055A4', away: 'GER', awayFlag: '#000000', date: 'June 16, 2026', confidence: 65, odds: '2.10' },
-  { home: 'ESP', homeFlag: '#AA151B', away: 'ITA', awayFlag: '#0066CC', date: 'June 17, 2026', confidence: 72, odds: '1.95' },
-  { home: 'ENG', homeFlag: '#FFFFFF', away: 'NED', awayFlag: '#FF4500', date: 'June 18, 2026', confidence: 58, odds: '2.35' },
-  { home: 'POR', homeFlag: '#006600', away: 'URU', awayFlag: '#0038A8', date: 'June 19, 2026', confidence: 81, odds: '1.72' },
-  { home: 'JPN', homeFlag: '#BC002D', away: 'KOR', awayFlag: '#CD2E3A', date: 'June 20, 2026', confidence: 45, odds: '2.80' },
-  { home: 'BEL', homeFlag: '#000000', away: 'CRO', awayFlag: '#171796', date: 'June 21, 2026', confidence: 69, odds: '2.05' },
-  { home: 'MEX', homeFlag: '#006847', away: 'USA', awayFlag: '#BF0A30', date: 'June 22, 2026', confidence: 52, odds: '2.55' },
-  { home: 'SEN', homeFlag: '#228B22', away: 'ECU', awayFlag: '#FFD700', date: 'June 23, 2026', confidence: 63, odds: '2.20' },
-  { home: 'QAT', homeFlag: '#8B1A1A', away: 'NED', awayFlag: '#FF4500', date: 'June 24, 2026', confidence: 35, odds: '3.50' },
-  { home: 'AUS', homeFlag: '#FFD700', away: 'DEN', awayFlag: '#C60C30', date: 'June 25, 2026', confidence: 41, odds: '3.10' },
-  { home: 'CAN', homeFlag: '#FF0000', away: 'MAR', awayFlag: '#C1272D', date: 'June 26, 2026', confidence: 48, odds: '2.70' },
-  { home: 'SRB', homeFlag: '#C6363C', away: 'SUI', awayFlag: '#DA291C', date: 'June 27, 2026', confidence: 55, odds: '2.40' },
-  { home: 'GHA', homeFlag: '#FCD116', away: 'KOR', awayFlag: '#CD2E3A', date: 'June 28, 2026', confidence: 50, odds: '2.60' },
+  { home: 'USA', homeFlag: '#BF0A30', away: 'Argentina', awayFlag: '#6CACE4', date: 'June 12, 2026', confidence: 78, odds: '1.85' },
+  { home: 'Brazil', homeFlag: '#009B3A', away: 'France', awayFlag: '#0055A4', date: 'June 13, 2026', confidence: 65, odds: '2.10' },
+  { home: 'Mexico', homeFlag: '#006847', away: 'England', awayFlag: '#FFFFFF', date: 'June 14, 2026', confidence: 72, odds: '1.95' },
+  { home: 'Germany', homeFlag: '#000000', away: 'Spain', awayFlag: '#AA151B', date: 'June 15, 2026', confidence: 58, odds: '2.35' },
+  { home: 'Canada', homeFlag: '#FF0000', away: 'Portugal', awayFlag: '#006600', date: 'June 16, 2026', confidence: 81, odds: '1.72' },
+  { home: 'Italy', homeFlag: '#0066CC', away: 'Netherlands', awayFlag: '#FF4500', date: 'June 17, 2026', confidence: 45, odds: '2.80' },
+  { home: 'Belgium', homeFlag: '#000000', away: 'Croatia', awayFlag: '#171796', date: 'June 18, 2026', confidence: 69, odds: '2.05' },
+  { home: 'Morocco', homeFlag: '#C1272D', away: 'Uruguay', awayFlag: '#0038A8', date: 'June 19, 2026', confidence: 52, odds: '2.55' },
+  { home: 'Senegal', homeFlag: '#228B22', away: 'Ecuador', awayFlag: '#FFD700', date: 'June 20, 2026', confidence: 63, odds: '2.20' },
+  { home: 'Japan', homeFlag: '#BC002D', away: 'Denmark', awayFlag: '#C60C30', date: 'June 21, 2026', confidence: 35, odds: '3.50' },
+  { home: 'Australia', homeFlag: '#FFD700', away: 'Switzerland', awayFlag: '#DA291C', date: 'June 22, 2026', confidence: 41, odds: '3.10' },
+  { home: 'Colombia', homeFlag: '#FCD116', away: 'Egypt', awayFlag: '#C8102E', date: 'June 23, 2026', confidence: 48, odds: '2.70' },
+  { home: 'Serbia', homeFlag: '#C6363C', away: 'Ghana', awayFlag: '#FCD116', date: 'June 24, 2026', confidence: 55, odds: '2.40' },
+  { home: 'Poland', homeFlag: '#DC143C', away: 'South Korea', awayFlag: '#CD2E3A', date: 'June 25, 2026', confidence: 50, odds: '2.60' },
 ];
 
 function getCardOffset(

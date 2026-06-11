@@ -15,6 +15,11 @@ const blocks = [
     text: 'Track star performers, injury updates, and form ratings. Predictive models highlight which players are primed to make the difference when it matters most.',
     titleSide: 'right' as const,
   },
+  {
+    title: 'USA 2026 EDGE',
+    text: 'Home field across 16 world-class stadiums. Our models factor in travel distances, climate variations, and altitude shifts across the USA, Canada, and Mexico — giving you the sharpest edge.',
+    titleSide: 'left' as const,
+  },
 ];
 
 export default function MatchInsights() {

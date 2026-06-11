@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 
 const tickerMatches = [
-  { status: 'LIVE', home: 'BRA', homeScore: 2, away: 'ARG', awayScore: 0, minute: "78'" },
-  { status: 'LIVE', home: 'FRA', homeScore: 1, away: 'GER', awayScore: 1, minute: "63'" },
-  { status: 'FT', home: 'ESP', homeScore: 3, away: 'ITA', awayScore: 1, minute: 'FT' },
-  { status: 'LIVE', home: 'ENG', homeScore: 0, away: 'NED', awayScore: 0, minute: "12'" },
-  { status: 'LIVE', home: 'POR', homeScore: 2, away: 'URU', awayScore: 1, minute: "55'" },
-  { status: 'FT', home: 'JPN', homeScore: 1, away: 'KOR', awayScore: 0, minute: 'FT' },
+  { status: 'LIVE', home: 'USA', homeScore: 2, away: 'Argentina', awayScore: 0, minute: "78'" },
+  { status: 'LIVE', home: 'Brazil', homeScore: 1, away: 'France', awayScore: 1, minute: "63'" },
+  { status: 'FT', home: 'Mexico', homeScore: 3, away: 'England', awayScore: 1, minute: 'FT' },
+  { status: 'LIVE', home: 'Germany', homeScore: 0, away: 'Spain', awayScore: 0, minute: "12'" },
+  { status: 'LIVE', home: 'Canada', homeScore: 2, away: 'Portugal', awayScore: 1, minute: "55'" },
+  { status: 'FT', home: 'Italy', homeScore: 1, away: 'Netherlands', awayScore: 0, minute: 'FT' },
 ];
 
 export default function Hero() {
@@ -93,7 +93,7 @@ export default function Hero() {
             maxWidth: 480,
           }}
         >
-          Expert predictions, real-time scores, and in-depth analysis for World Cup 2026.
+          Expert predictions, real-time scores, and in-depth analysis for World Cup 2026 — live from 16 cities across the USA, Canada &amp; Mexico.
         </p>
 
         <div className="flex flex-wrap gap-4 mt-10">
